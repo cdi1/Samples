@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bubble Chart Necklace</title>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+</head>
+<body>
+<script>
+var dataArray =[7,10,20,30,20,10,5,2]
+var canvas = d3.select("body").append("svg").attr("width",1080).attr("height",800);
+var color = d3.scale.linear().domain([0,30]).range(["yellow", "red"]);
+var circles = canvas.selectAll("circle").data(dataArray).enter()
+//yet enter has created empty circles for each data that is not yet attached to the DOM
+.append("circle")
+.attr("cx", function(d,i){return 100+i*100;})
+.attr("cy", function(d,i){return 100+d*10;})
+.attr("r", function(d){return d*1.7;})
+.attr("fill", function(d){return color(d);});
+</script>
+<script>
+var dataArray =[7,10,20,30,20,10,5,2]
+var canvas = d3.select("body").append("svg").attr("width",1080).attr("height",800);
+var color = d3.scale.linear().domain([0,30]).range(["blue", "yellow"]);
+var circles = canvas.selectAll("circle").data(dataArray).enter()
+//yet enter has created empty circles for each data that is not yet attached to the DOM
+.append("circle")
+.attr("cx", function(d,i){return 100+i*100;})
+.attr("cy", function(d,i){return 100+d*10;})
+.attr("r", function(d){return d*1.7;})
+.attr("fill", function(d){return color(d);});
+</script>
+<script>
+var dataArray =[7,10,20,30,20,10,5,2]
+var canvas = d3.select("body").append("svg").attr("width",1080).attr("height",800);
+var color = d3.scale.linear().domain([0,30]).range(["green", "pink"]);
+var circles = canvas.selectAll("circle").data(dataArray).enter()
+//yet enter has created empty circles for each data that is not yet attached to the DOM
+.append("circle")
+.attr("cx", function(d,i){return 100+i*100;})
+.attr("cy", function(d,i){return 100+d*10;})
+.attr("r", function(d){return d*1.7;})
+.attr("fill", function(d){return color(d);});
+</script>
+</body>
+</html>
