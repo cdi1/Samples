@@ -1,0 +1,16 @@
+﻿[
+{"name":"Maria","age":30,"secondname":"joe"},
+{"name":"Fred","age":50,"secondname":"sepp"},
+{"name":"Franz","age":34,"secondname":"angerer"},
+{"name":"Resi","age":32,"secondname":"weidmann"},
+{"name":"Sepp","age":39,"secondname":"Weiterer"},
+{"name":"Stefan","age":14,"secondname":"Alois"},
+{"name":"Alois","age":5,"secondname":"Maier"},
+{"name":"Anton","age":78,"secondname":"Fux"},
+{"name":"Francis","age":12,"secondname":"of France"},
+{"name":"Armin", "age":42,"secondname":"???"},
+{"name":"Irmin","age":32,"secondname":"Sostanijew"},
+{"name":"Iris", "age":41,"secondname":"Mauser"},
+{"name":"Berta", "age":84,"secondname":"jojo"},
+{"name":"Toni", "age":65,"secondname":"s"}
+]
